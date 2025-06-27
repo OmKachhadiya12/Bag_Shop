@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
-
 const cookieParser = require('cookie-parser');
 const path = require('path');
+const ownerRoutes = require('./routes/ownerRoutes');
+const userRoutes = require('./routes/userRoutes');
+const productRoutes = require('./routes/productRoutes');
 
 const db = require('./config/db');
 
