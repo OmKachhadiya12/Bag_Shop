@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const product = require('./productModels');
 
 const ownerSchema = new mongoose.Schema({
     fullName:{
