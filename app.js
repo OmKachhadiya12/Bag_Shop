@@ -20,7 +20,7 @@ app.set('view engine','ejs');
 app.use(expressSession({
     resave: true,
     saveUninitialized: false,
-    secret: process.env.EXPRESS_SESSION_SECRET
+    secret: 'secret'
 }));
 
 app.use(flash());
